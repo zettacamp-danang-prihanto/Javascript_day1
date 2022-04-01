@@ -1,7 +1,11 @@
-let a = 'There are';
-let b = 5;
-let c = 'Ninja Hatori';
-let d = 'books left in stock.'
+function books(){
+    Book = a + b + c + d ;
+    return Book;
+}
+var a = 'There are '
+var b = 5;
+var c = ' Ninja Hatori ';
+var d = 'books left in stock.'
+var result = books(a,b,c,d);
 
-result = ''+a+' '+b+' '+c+' '+d+'';
-console.log(result)
+console.log(result); 
